@@ -51,14 +51,13 @@ window.addEventListener('DOMContentLoaded', function() {
     let charlesPara = document.createElement('p');
     
     
-    
+
 
     let btn = document.getElementsByTagName('button')[0];
     
     btn.addEventListener('click', function() {
         header.appendChild(h1Text);
         for (let n = 99; n > 0; n--) {
-            let n = 99;
             let j = n - 1;
             let lizParaText = document.createTextNode(+ n + ' line of code in the file,'  + n + ' line of code; Liz strikes one out, clears it all out, no more lines of code in the file');
             let lizElseText = document.createTextNode(+ n + ' lines of code in the file,'  + n +  ' lines of code; Liz strikes one out,clears it all out, ' + j + ' lines of code in the file');
@@ -73,21 +72,64 @@ window.addEventListener('DOMContentLoaded', function() {
         div1.appendChild(h3Liz);
         header.appendChild(div1);
 
+
+        for (let n = 99; n > 0; n--) {
+            let j = n - 1;
+            let rodParaText = document.createTextNode(+ n + ' line of code in the file,'  + n + ' line of code; Rod strikes one out, clears it all out, no more lines of code in the file');
+            let rodElseText = document.createTextNode(+ n + ' lines of code in the file,'  + n +  ' lines of code; Rod strikes one out,clears it all out, ' + j + ' lines of code in the file');
+            if (n === 1) {
+                rodPara.appendChild(rodParaText);
+            } else {
+                rodPara.appendChild(rodElseText);
+            }
+        }
         h3Rod.appendChild(rodText);
         h3Rod.appendChild(rodPara);
         div2.appendChild(h3Rod);
         header.appendChild(div2);
 
+
+        for (let n = 99; n > 0; n--) {
+            let j = n - 1;
+            let alanParaText = document.createTextNode(+ n + ' line of code in the file,'  + n + ' line of code; Alan strikes one out, clears it all out, no more lines of code in the file');
+            let alanElseText = document.createTextNode(+ n + ' lines of code in the file,'  + n +  ' lines of code; Alan strikes one out,clears it all out, ' + j + ' lines of code in the file');
+            if (n === 1) {
+                alanPara.appendChild(alanParaText);
+            } else {
+                alanPara.appendChild(alanElseText);
+            }
+        }
         h3Alan.appendChild(alanText);
         h3Alan.appendChild(alanPara);
         div3.appendChild(h3Alan);
         header.appendChild(div3);
 
+
+        for (let n = 99; n > 0; n--) {
+            let j = n - 1;
+            let fainParaText = document.createTextNode(+ n + ' line of code in the file,'  + n + ' line of code; Fain strikes one out, clears it all out, no more lines of code in the file');
+            let fainElseText = document.createTextNode(+ n + ' lines of code in the file,'  + n +  ' lines of code; Fain strikes one out,clears it all out, ' + j + ' lines of code in the file');
+            if (n === 1) {
+                fainPara.appendChild(fainParaText);
+            } else {
+                fainPara.appendChild(fainElseText);
+            }
+        }
         h3Fain.appendChild(fainText);
         h3Fain.appendChild(fainPara);
         div4.appendChild(h3Fain);
         header.appendChild(div4);
 
+        for (let n = 99; n > 0; n--) {
+            let j = n - 1;
+            let charlesParaText = document.createTextNode(+ n + ' line of code in the file,'  + n + ' line of code; Charles strikes one out, clears it all out, no more lines of code in the file');
+            let charlesElseText = document.createTextNode(+ n + ' lines of code in the file,'  + n +  ' lines of code; Charles strikes one out,clears it all out, ' + j + ' lines of code in the file');
+            if (n === 1) {
+                charlesPara.appendChild(charlesParaText);
+            } else {
+                charlesPara.appendChild(charlesElseText);
+            }
+        }
         h3Charles.appendChild(charlesText);
         h3Charles.appendChild(charlesPara);
         div5.appendChild(h3Charles);
