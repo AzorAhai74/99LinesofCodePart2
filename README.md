@@ -1,6 +1,6 @@
 Info
 
-    This lab consists of two parts
+    This lab consists of two parts:
     In this second iteration you will be transforming part 1 of the lab
     You should copy your files from part 1 and paste them along with this README file into a new folder linked to a new github repository
 

@@ -4,6 +4,7 @@ window.addEventListener('DOMContentLoaded', function() {
     let header1 = document.getElementsByClassName('header1');
     header.className = header1;
     let h1Text = document.createTextNode('My Singing Friends');
+    
 
     let div1 = document.createElement('div');
     div1.className = 'friend';
@@ -12,6 +13,7 @@ window.addEventListener('DOMContentLoaded', function() {
     let h3Liz = document.createElement('h3');
     let lizText = document.createTextNode('Liz');
     let lizPara = document.createElement('p');
+    
     
     
 
@@ -59,8 +61,8 @@ window.addEventListener('DOMContentLoaded', function() {
         header.appendChild(h1Text);
         for (let n = 99; n > 0; n--) {
             let j = n - 1;
-            let lizParaText = document.createTextNode(+ n + ' line of code in the file,'  + n + ' line of code; Liz strikes one out, clears it all out, no more lines of code in the file');
-            let lizElseText = document.createTextNode(+ n + ' lines of code in the file,'  + n +  ' lines of code; Liz strikes one out,clears it all out, ' + j + ' lines of code in the file');
+            let lizParaText = document.createTextNode(+ n + ' lines of code in the file, '  + n + ' lines of code; Liz strikes one out, clears it all out, no more lines of code in the file. ');
+            let lizElseText = document.createTextNode(+ n + ' lines of code in the file, '  + n +  ' lines of code; Liz strikes one out, clears it all out, ' + j + '  lines of code in the file. ');
             if (n === 1) {
                 lizPara.appendChild(lizParaText);
             } else {
@@ -75,8 +77,8 @@ window.addEventListener('DOMContentLoaded', function() {
 
         for (let n = 99; n > 0; n--) {
             let j = n - 1;
-            let rodParaText = document.createTextNode(+ n + ' line of code in the file,'  + n + ' line of code; Rod strikes one out, clears it all out, no more lines of code in the file');
-            let rodElseText = document.createTextNode(+ n + ' lines of code in the file,'  + n +  ' lines of code; Rod strikes one out,clears it all out, ' + j + ' lines of code in the file');
+            let rodParaText = document.createTextNode(+ n + ' lines of code in the file, '  + n + ' lines of code; Rod strikes one out, clears it all out, no more lines of code in the file. ');
+            let rodElseText = document.createTextNode(+ n + ' lines of code in the file, '  + n +  ' lines of code; Rod strikes one out, clears it all out, ' + j + ' lines of code in the file. ');
             if (n === 1) {
                 rodPara.appendChild(rodParaText);
             } else {
@@ -91,8 +93,8 @@ window.addEventListener('DOMContentLoaded', function() {
 
         for (let n = 99; n > 0; n--) {
             let j = n - 1;
-            let alanParaText = document.createTextNode(+ n + ' line of code in the file,'  + n + ' line of code; Alan strikes one out, clears it all out, no more lines of code in the file');
-            let alanElseText = document.createTextNode(+ n + ' lines of code in the file,'  + n +  ' lines of code; Alan strikes one out,clears it all out, ' + j + ' lines of code in the file');
+            let alanParaText = document.createTextNode(+ n + ' lines of code in the file, '  + n + ' lines of code; Alan strikes one out, clears it all out, no more lines of code in the file. ');
+            let alanElseText = document.createTextNode(+ n + ' lines of code in the file, '  + n +  ' lines of code; Alan strikes one out, clears it all out, ' + j + ' lines of code in the file. ');
             if (n === 1) {
                 alanPara.appendChild(alanParaText);
             } else {
@@ -107,8 +109,8 @@ window.addEventListener('DOMContentLoaded', function() {
 
         for (let n = 99; n > 0; n--) {
             let j = n - 1;
-            let fainParaText = document.createTextNode(+ n + ' line of code in the file,'  + n + ' line of code; Fain strikes one out, clears it all out, no more lines of code in the file');
-            let fainElseText = document.createTextNode(+ n + ' lines of code in the file,'  + n +  ' lines of code; Fain strikes one out,clears it all out, ' + j + ' lines of code in the file');
+            let fainParaText = document.createTextNode(+ n + ' lines of code in the file, '  + n + '  lines of code; Fain strikes one out, clears it all out, no more lines of code in the file. ');
+            let fainElseText = document.createTextNode(+ n + ' lines of code in the file, '  + n + ' lines of code; Fain strikes one out,clears it all out, ' + j + ' lines of code in the file. ');
             if (n === 1) {
                 fainPara.appendChild(fainParaText);
             } else {
@@ -122,8 +124,8 @@ window.addEventListener('DOMContentLoaded', function() {
 
         for (let n = 99; n > 0; n--) {
             let j = n - 1;
-            let charlesParaText = document.createTextNode(+ n + ' line of code in the file,'  + n + ' line of code; Charles strikes one out, clears it all out, no more lines of code in the file');
-            let charlesElseText = document.createTextNode(+ n + ' lines of code in the file,'  + n +  ' lines of code; Charles strikes one out,clears it all out, ' + j + ' lines of code in the file');
+            let charlesParaText = document.createTextNode(+ n + ' lines of code in the file, '  + n + ' lines of code; Charles strikes one out, clears it all out, no more lines of code in the file. ');
+            let charlesElseText = document.createTextNode(+ n + ' lines of code in the file, '  + n +  ' lines of code; Charles strikes one out, clears it all out, ' + j + ' lines of code in the file. ');
             if (n === 1) {
                 charlesPara.appendChild(charlesParaText);
             } else {
